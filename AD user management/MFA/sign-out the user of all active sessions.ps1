@@ -1,0 +1,1 @@
+Get-AzureADUser -SearchString user@contoso.com | Revoke-AzureADUserAllRefreshToken

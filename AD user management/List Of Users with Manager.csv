@@ -1,0 +1,806 @@
+Column1;Column2;Column3
+#TYPE Selected.Microsoft.ActiveDirectory.Management.ADUser;;
+CN;Department;Manager
+Igor Lysukha Admin;develop;
+Administrator;;
+Guest;;
+krbtgt;;
+CSP-NET$;;
+SMS_admin;;
+Anton Skrynnyk;BPO Delivery;Iurii Shubin
+Yaroslav Samoylenko;Software Development;Ivan Reznik
+Alena Dyma;Software Development;Ivan Reznik
+Vladimir Maletskiy;Software Development;Ivan Reznik
+Nikita Fil;Software Development;Ivan Reznik
+Irina Pavlushko;Software Development;Ivan Reznik
+Andrey Fedyk;Software Development;Pavel Pronko
+Alexey Karliuchenko;Software Development;Ivan Reznik
+Kseniia Novoskoltseva;Software Development;Ivan Reznik
+Stanislav Medzyanovskiy;IT Department;Sergei Tchernyshenko
+Yegor Dovganich;Software Development;Ivan Reznik
+Brain Bencher Kiev;;
+Sergey Kizyan;Administration;Serge Stepantsov
+Borys Vashchenko;Software Development;Ivan Reznik
+Backup Operator;;
+Ekaterina Shuvaeva;BPO Delivery;Dmytro Lomakin
+Aleksandr Mastiukh;BPO Delivery;Anna Symonchuk
+Anna Topchiy;BPO Delivery;Marina Balinskaya
+Elena Semchenko;BPO Delivery;Dmytro Lomakin
+Alyona Dubrovskaya;BPO Delivery;Dmytro Lomakin
+Yaroslava Onishchenko;BPO Delivery;Dmytro Lomakin
+Aleksandr Solovev;BPO Delivery;Dmytro Lomakin
+Svetlana Podlesnaya;BPO Delivery;Marina Balinskaya
+Rostislav Miroshnichenko;BPO Delivery;Dmytro Lomakin
+Nikolay Kramarenko;BPO Delivery;Anna Symonchuk
+Aleksey Fedotov;BPO Delivery;Dmytro Lomakin
+Mykhail Shlakhter;BPO Delivery;Dmytro Lomakin
+Anastasiya Burovskaya;BPO Delivery;Dmytro Lomakin
+Anton Isaev;BPO Delivery;Sophia Slupskaya
+Anna Burtseva;Administration;Olga Stepanova
+Artem Kurishenko;BPO Delivery;Dmytro Lomakin
+Pavel Babeshko;BPO Delivery;Dmytro Lomakin
+Pavel Verba;BPO Delivery;Dmytro Lomakin
+Igor Belevtsov;IT Department;Sergei Tchernyshenko
+Anton Valinov;BPO Delivery;Dmytro Lomakin
+Eugenia Bochko;BPO Delivery;Anna Symonchuk
+Olga Stepanova;Administration;Eugene Lanetski
+Igor Lisovitskyi;BPO Delivery;Anna Symonchuk
+Yana Koval;BPO Delivery;Dmytro Lomakin
+Anna Stepanova;BPO Delivery;Aleksey Borodulin
+Elena Miroshnichenko;BPO Delivery;Anna Symonchuk
+Andrii Shulika;BPO Delivery;Dmytro Lomakin
+Yuliya Legkaya;BPO Delivery;Aleksey Borodulin
+Valeriia Sinkova;BPO Delivery;Dmytro Lomakin
+Igor Lysukha;IT Department;Sergei Tchernyshenko
+Igor Umnov;BPO Delivery;Dmytro Lomakin
+Brain Bencher;;
+Aleksandr Lotnik;BPO Delivery;Dmytro Lomakin
+Maksim Lugin;BPO Delivery;Dmytro Lomakin
+Andrey Fedorchenko;BPO Delivery;Anna Symonchuk
+Pavel Yalovol;BPO Delivery;Serge Stepantsov
+Eduard Frankovskiy;BPO Delivery;Maksim Evsukov
+Dmitriy Lytvyn;IT Department;Sergei Tchernyshenko
+Vladimir Shuvaev;BPO Delivery;Dmytro Lomakin
+Zakhar Bokovenko;BPO Delivery;Dmytro Lomakin
+Tatyana Tsarenko;BPO Delivery;Dmytro Lomakin
+Irina Gormakova;BPO Delivery;Dmytro Lomakin
+Iurii Shubin;BPO Delivery;Pavel Yalovol
+Andrey Anfilov;BPO Delivery;Aleksey Borodulin
+Dmytro Lomakin;BPO Delivery;Pavel Yalovol
+Anastasia Vasilenko;BPO Delivery;Anna Symonchuk
+Andrii Buryk;BPO Delivery;Dmytro Lomakin
+Aleksandr Matsegora;BPO Delivery;Maksim Evsukov
+Ekaterina Andrushchenko;BPO Delivery;Dmytro Lomakin
+Anna Symonchuk;BPO Delivery;Pavel Yalovol
+Tatyana Milova;BPO Delivery;Dmytro Lomakin
+Pavel Gritsenko;BPO Delivery;Dmytro Lomakin
+Nataliia Kasianova;BPO Delivery;Anna Symonchuk
+Roman Sokolenko;BPO Delivery;Maksim Evsukov
+Ievgen Sukhotin;BPO Delivery;Dmytro Lomakin
+Svetlana V. Shuba;Administration;Eugene Lanetski
+Anastasia Verkhovod;BPO Delivery;Dmytro Lomakin
+Anna Koliadenko;BPO Delivery;Dmytro Lomakin
+Aleksey Borodulin;BPO Delivery;Pavel Yalovol
+Valeriia Kotelnykova;BPO Delivery;Dmytro Lomakin
+Konstantin Oleksyuk;BPO Delivery;Dmytro Lomakin
+Maksym Nartov;BPO Delivery;Dmytro Lomakin
+Andrey Plakhotnik;BPO Delivery;Dmytro Lomakin
+Andrey Sklyarov;BPO Delivery;Dmytro Lomakin
+Igor Reznik;BPO Delivery;Anna Symonchuk
+Andrey Fateev;BPO Delivery;Anna Symonchuk
+GIS-Admin;gis;
+Olga Baibenkova;BPO Delivery;Dmytro Lomakin
+Denis Udachin;BPO Delivery;Marina Balinskaya
+Yurii Skubak;BPO Delivery;Anna Symonchuk
+Alena Pavlova;BPO Delivery;Dmytro Lomakin
+Konstantin Babenko;BPO Delivery;Dmytro Lomakin
+Anton Kuzmenko;BPO Delivery;Dmytro Lomakin
+Serhii Narozhnyi;BPO Delivery;Aleksey Borodulin
+Natalia Chetvertak;BPO Delivery;Dmytro Lomakin
+Sergey Gorodilov;BPO Delivery;Aleksey Borodulin
+Tatiana Ryzhik;BPO Delivery;Anna Symonchuk
+Anastasia Vavilova;BPO Delivery;Dmytro Lomakin
+Sergey Markov;BPO Delivery;Dmytro Lomakin
+Maksym Vysochin;BPO Delivery;Dmytro Lomakin
+Ievgenii Matveichuk;BPO Delivery;Dmytro Lomakin
+Nataliya Lysenko;Administration;Svetlana V. Shuba
+Eugene Pozdorovkin;BPO Delivery;Dmytro Lomakin
+Elena Pivovar;BPO Delivery;Dmytro Lomakin
+Eugene Lanetski;Administration;Serge Stepantsov
+Sergey Golik;Software Development;Aleksey Tyutyunnyk
+Pavel Andrienko;Software Development;Ivan Reznik
+Roman Olshevski;QA Department;Anton Sheiko
+Maksim Anikin;BPO Delivery;Maksim Evsukov
+Vladislav Kovtunov;BPO Delivery;Maksim Evsukov
+Vasiliy Grebinnyk;Software Development;Aleksey Tyutyunnyk
+Sergey Vasilenko;Software Development;Andrey Slepushenko
+Valeriy Ageev;Software Development;Ivan Reznik
+Yuri Kovtoniuk;Development;Aleksey Tyutyunnyk
+Andrey Slepushenko;Software Development;Aleksey Tyutyunnyk
+Vladimir Kisil;Software Development;Aleksey Tyutyunnyk
+Andrey Tkachenko;Software Development;Ivan Reznik
+Artem Tsatsuyev;Software Development;Aleksey Tyutyunnyk
+Andrey Lysenko;Software Development;Ruben Gambarov
+Oleg Kuznetsov;Software Development;Anton Sheiko
+Ivan Reznik;Software Development;Sergey Kizyan
+Igor Belevtsov Admin;develop;
+Aleksey Tyutyunnyk;Software Development;Sergey Kizyan
+Kharkiv SoftDev Meeting Room;;
+Elena Krylova;Administration;Eugene Lanetski
+Ludmila Vnuchenko;Administration;Eugene Lanetski
+Alexander Kleshnin;BPO Delivery;Maksim Evsukov
+Natalia Chernonog;Administration;Svetlana V. Shuba
+GIS-User;gis;
+IMEI 12345;;
+Andrey Maksimenko;Software Development;Ruben Gambarov
+Ilya Subotovskyi;Software Development;Vladimir Kisil
+Alexander Tretyakov;Sales and Marketing;Sergey Kizyan
+Maksim Evsukov;BPO Delivery;Pavel Yalovol
+Dmitriy Lytvyn Admin;develop;
+Maksim Vasilyev;Software Development;Ruben Gambarov
+Marina Balinskaya;BPO Delivery;Aleksey Borodulin
+Sergiy Konotop;QA Department;Aleksey Tyutyunnyk
+Aleksandra Volkovaya;BPO Delivery;Maksim Evsukov
+Yevgen Taradayko;Software Development;Ruben Gambarov
+Aleksandr Syrovatskiy;Software Development;Ruben Gambarov
+Evgeniy Filippov;BPO Delivery;Marina Balinskaya
+Elena Donets;BPO Delivery;Marina Balinskaya
+Ekaterina Gavrushenko;BPO Delivery;Marina Balinskaya
+Evgeny Zaharchenko;BPO Delivery;Marina Balinskaya
+Lubov Zaichenko;BPO Delivery;Marina Balinskaya
+Denis Ivanov;BPO Delivery;Marina Balinskaya
+Aliona Khurdei;BPO Delivery;Anna Symonchuk
+Tetiana Golovina;BPO Delivery;Marina Balinskaya
+Galina Slepchenko;BPO Delivery;Marina Balinskaya
+Raspberry Pi. UA;;
+Aleksey A. Prognimak;BPO Delivery;Ruslan Tsymbal
+Sergey Gnilitsky;Software Development;Ruben Gambarov
+Oleg Snurnikov;Software Development;Aleksey Tyutyunnyk
+Elena Taraniuk;BPO Delivery;Anna Stepanova
+Oleg Sheremet;Software Development;Aleksey Tyutyunnyk
+Anton Sytnik;BPO Delivery;Marina Balinskaya
+Svitlana Vlasenko;BPO Delivery;Marina Balinskaya
+Oksana Pavlenko;BPO Delivery;Anna Stepanova
+Igor Beresnev;BPO Delivery;Anna Stepanova
+Victor Gasanov;Talent Acquisition Team;Viktoriia Shcherbakova
+Intune User;;
+Kyiv Meeting Room L (Large);;
+Elena Samoilova;BPO Delivery;Marina Balinskaya
+Kyiv Meeting Room M (Medium);;
+Alla Tarapat;BPO Delivery;Marina Balinskaya
+Alina Martinkova;BPO Delivery;Marina Balinskaya
+Gulshat Sagatdinova;BPO Delivery;Marina Balinskaya
+Svetlana Kritsyna;;
+Boris Kontsevoi;;
+Denis Yaroschik;Software Development;Dmitry Sherstobitov
+sherpa;;
+Competency DB;;
+Service Notifier;;
+Galina Uvarova;Sales and Marketing;
+Rudia Kim;;
+Mark Felix;;
+Marvin Wolfert;;
+Andrew Taylor;;
+Catherine Thompson;;
+job ua;;
+Olga Novykova;;
+Svetlana Svetlichnaya;Talent Management Team;Lidiya Kubrina
+Ivan Lovinskiy;GIS Department;Marina Balinskaya
+Stanislav Medzyanovskiy Admin;;
+Kharkiv BPO Meeting Room Italy;;
+Kharkiv BPO Training Room Germany;;
+Kharkiv BPO Meeting Room Turkey;;
+Kharkiv BPO Sport Room Costa Rica;;
+Kharkiv BPO Meeting Room Colombia;;
+Kharkiv BPO Meeting Room Congo;;
+Kharkiv BPO Meeting Room Venezuela;;
+Kharkiv BPO Meeting Room Madagascar;;
+SN DMPMX7X2F182;;
+Kharkiv BPO Meeting Room Poland;;
+Tatiana Adrian;BPO Delivery;Anna Stepanova
+SN G6BN748005UK;;
+SN G6BNN7480056J;;
+Lyn Mortensen;;
+Mariia Struchkova;Administration;Eugene Lanetski
+ASPNET;;
+Victoria Prokofieva;IT;
+Ostap Demkiv;Software Development;Aleksey Tyutyunnyk
+Charlie O'Hearn;;
+Brain Bencher Lviv;;
+Winnie Leung;;
+Intetics Azure;;
+DHCP Operator;;
+Lars Fabig;;
+Alexander Manger;;
+Kerberos KSVN;;
+Squid Proxy;;
+PracticeCI;;
+Viktoriia Verba;BPO Delivery;Marina Balinskaya
+SN R52G317MBMN;;
+AR020610UKR;;
+GitLabUA;;
+Kerberos KPROXY;;
+Olesia Andriuschenko;BPO Delivery;Anna Symonchuk
+Tara Becker;;
+Evgeniy Fedotov;Software Development;Ruben Gambarov
+Bill Catania;;
+Vladislav Dombrovskyi;Software Development;Ruben Gambarov
+SN R52K20BT92M;;
+Laura Rothman;;
+Sofiya Nakonechnaya;Administration;Eugene Lanetski
+Ruben Gambarov;Software Development;Aleksey Tyutyunnyk
+rpabot;;
+Diana Prilutskaya;BPO Delivery;Anna Symonchuk
+Krystyna Tiupa;Talent Acquisition Team;Viktoriia Shcherbakova
+Hennadii Herasymenko;BPO Delivery;Marina Balinskaya
+Ekaterina Zagrevskaya;BPO Delivery;Marina Balinskaya
+SN DMPWQKNWJF8J;;
+Illia Ovcharenko;BPO Delivery;Maksim Evsukov
+IMEI 352022807594179;;
+Serhii Mishchenko;Software Development;Ivan Reznik
+Srini Sundaram;;
+RNDNewsletter;;
+Milan Nayee;;
+Frances Eames;;
+Cameron Young;;
+Igor Denisenko;BPO Delivery;Dmytro Lomakin
+Mikhail Prisyazhnyuk;Software Development;Ruben Gambarov
+Madina Shegebay;BPO Delivery;Marina Balinskaya
+Matt Stringfellow;;
+Elizaveta Samko;BPO Delivery;Dmytro Lomakin
+Inna Plushko;BPO Delivery;Dmytro Lomakin
+Ruslan Grigorian;BPO Delivery;Dmytro Lomakin
+Aleksey Ganysh;BPO Delivery;Dmytro Lomakin
+Alyona Anishchenko;BPO Delivery;Aleksey Borodulin
+Denis Dudaev;Development;Ruben Gambarov
+Denis Gorodnichenko;BPO Delivery;Anna Symonchuk
+Anna Velichko;BPO Delivery;Dmytro Lomakin
+Anton Sheiko;Software Development;Aleksey Tyutyunnyk
+Dmytro Blahodatnyi;Software Development;Ivan Reznik
+Roman Stets;Software Development;Ruben Gambarov
+Igor Kalyutich;;
+Irina Kharchevnikova;BPO Delivery;Dmytro Lomakin
+Oleg Tkachuk;;
+Serhii Brushkovskyi;GIS Department;Dmytro Lomakin
+Azure Subscriptions;;
+Juliia Naumova;Administration;Olga Stepanova
+Elena Zub;BPO Delivery;Maksim Evsukov
+Alina Kozlova;BPO Delivery;Aleksey Borodulin
+Alexandr Lonsky;Software Development;Aleksey Tyutyunnyk
+Kyiv Meeting Room S (Small);;
+Charles Thomson;;
+Hadi Baghsiahi;;
+Ekaterina Denisenko;BPO Delivery;Anna Symonchuk
+Mark Antonov;BPO Delivery;Dmytro Lomakin
+Client Portal;;
+Tetyana Zakapko;BPO Delivery;Anna Symonchuk
+Mark Starikov;BPO Delivery;Dmytro Lomakin
+Transparent Squid Proxy;;
+Sergey Kurakov;Sales and Marketing;Pavel Gorenitsyn
+Ruslan Tsymbal;BPO Delivery;Maksim Evsukov
+Anastasiya Didenko;BPO Delivery;Dmytro Lomakin
+Matthew Wayne;;
+Aleksey Chernyavskiy;BPO Delivery;Dmytro Lomakin
+David McCreary;;
+Sophie Klare;;
+jba-ua;;
+Denys Yarmolyuk;BPO Delivery;Iurii Shubin
+Clint van der Loon;;
+Kevin Shackleton;;
+Artem Fedorenko;BPO Delivery;Maksim Evsukov
+Kerberos Squid iProxy;;
+Evgeniy Gudkov;BPO Delivery;Iurii Shubin
+Victor Sakhno;Talent Management Team;Svetlana Svetlichnaya
+Maria Popova;BPO Delivery;Anna Symonchuk
+Vitalii Otdielnov;Software Development;Ruben Gambarov
+Oleksii Altukhov;Software Development;Ivan Reznik
+Valeriy Belich;BPO Delivery;Maksim Evsukov
+Marianna Zaitseva;BPO Delivery;Anna Symonchuk
+Dmytro Shaulskiy;BPO Delivery;Anna Symonchuk
+Dmitriy Shevchuk;BPO Delivery;Dmytro Lomakin
+Alexander Budnyk;BPO Delivery;Dmytro Lomakin
+Svetlana Trubaeva;BPO Delivery;Dmytro Lomakin
+Pavel Srebnyuk;BPO Delivery;Dmytro Lomakin
+Vadim Yesin;;
+Kateryna Kovalova;;
+Andrey Kislov;BPO Delivery;Dmytro Lomakin
+Michael Shor;;
+Vitaliy Kobzar;IT Department;Sergei Tchernyshenko
+Roman Hryshchenko;QA Department;Ruben Gambarov
+Serhii Rebrov;BPO Delivery;Dmytro Lomakin
+LinuxToAD;;
+Mihail Shelyagov;BPO Delivery;Dmytro Lomakin
+Vitaliy Shved;BPO Delivery;Dmytro Lomakin
+Viktoriia Strelnikova;BPO Delivery;Marina Balinskaya
+Victoria Kuznetsova;BPO Delivery;Anna Symonchuk
+Shlomi Shpirer;;
+Anastasiia Honcharova;BPO Delivery;Dmytro Lomakin
+Elena Sosnova;BPO Delivery;Dmytro Lomakin
+Vladyslav Chuprynin;BPO Delivery;Dmytro Lomakin
+Andrew Egenes;;
+Antony Tryputen;Software Development;Ivan Reznik
+Michael Burris;;
+Liudmila Zobenko;;
+Vadym Toma;Sales and Marketing;Sergey Kizyan
+Igor Andrushchenko;Software Development;Ruben Gambarov
+Brian Charles;;
+Aaron Benson;;
+James Verespej;;
+Intetics StayCool;;
+Vadym Stetsiuk;Software Development;Ruben Gambarov
+Denis Krivogubchenko;Software Development;Ruben Gambarov
+Anastasiia Hrinchenko;Sales and Marketing;Alexander Tretyakov
+Olena Rakhim;GIS Department;Marina Balinskaya
+Stanislav Shumilo;GIS Department;Marina Balinskaya
+Mariia Cherednychenko;GIS Department;Marina Balinskaya
+Iryna Hubska;GIS Department;Marina Balinskaya
+Valentyna Druziuk;GIS Department;Marina Balinskaya
+HR Confluence Bot;;
+Natalia Usenko;BPO Delivery;Anna Symonchuk
+Leonid Baydullin;GIS Department;Anna Stepanova
+Brooke Helms;;
+Igor Dyachenko;Software Development;Vladimir Kisil
+Anna Hrushko;GIS Department;Anna Stepanova
+Svetlana Kramarenko;GIS Department;Anna Stepanova
+Yevheniia Holovina;GIS Department;Anna Stepanova
+Yevgeniya Lushtey;GIS Department;Anna Stepanova
+Olena Samsonova;GIS Department;Anna Stepanova
+Artem Nahrudnyi;GIS Department;Anna Stepanova
+Artyom Mashkin;GIS Department;Ruslan Tsymbal
+Nikita Tsvirko;GIS Department;Ruslan Tsymbal
+Amine Sijilmassi;;
+Shankar Sivaprakasam;;
+Shantnu Kumar;;
+Rachel;;
+Marco Forlin;;
+Vitaliy Kuznetsov;BPO Delivery;Anna Stepanova
+Melvin Aguila;;
+Tom Bradham;Marketing;
+?alent ?anagement ?eam;;
+Ivan Khomlenko;BPO Delivery;Ruslan Tsymbal
+IMEI 353072093493940;;
+Anton Didenko;BPO Delivery;Maksim Evsukov
+Liliya Kaminskaya;Talent Acquisition Team;Viktoriia Shcherbakova
+Roman Borzenkov;BPO Delivery;Ruslan Tsymbal
+Vitaliy Kobzar Admin;IT Department;
+Vitalina Miroshnychenko;Administration;Olga Stepanova
+SN DMPWVF4TJF8J;;
+Sophia Slupskaya;BPO Delivery;Maksim Evsukov
+Roman Tykholaz;Software Development;Ivan Reznik
+Viktoriia Kuznichenko;BPO Delivery;Maksim Evsukov
+Ihor Lysenko;Talent Management Team;Svetlana Svetlichnaya
+Anastasiia Malakhova;BPO Delivery;Anna Symonchuk
+Katerina Romanchuk;QA Department;Sergei Terekhov
+Ihor Kukoba;BPO Delivery;Maksim Evsukov
+Vladimir Petrov;Software Development;Ruben Gambarov
+Sergey Safarov;Development;Ruben Gambarov
+Ruslan Tryasko;Software Development;Ivan Reznik
+Mikhail Bily;Software Development;Ivan Reznik
+Alexey Sinyuk;QA Department;Ivan Reznik
+Alexander Kharytonov;Software Development;Ivan Reznik
+Andrey Kravchuk;QA Department;Ivan Reznik
+Pavel Vinnyk;Software Development;Ivan Reznik
+Viacheslav Lukianov;Software Development;Ivan Reznik
+Sergey Aleksandrov;Software Development;Ivan Reznik
+Denis Seleznev;Software Development;Ivan Reznik
+Iryna Tykhan;Software Development;Ivan Reznik
+sstptest;;
+Sergey Verbitskiy;Software Development;Ivan Reznik
+Anna Kornilova;BPO Delivery;Anna Symonchuk
+Alexey Mikheev;QA Department;Ivan Reznik
+Dmitriy Shamatrin;Software Development;Ivan Reznik
+Polina Shubina;Software Development;Ivan Reznik
+Igor Popov;QA Department;Ivan Reznik
+Konstantin Kushnir;Software Development;Ivan Reznik
+Yuliia Chumachenko;QA Department;Ivan Reznik
+Oleh Semiroz;QA Department;Ivan Reznik
+Valentyn Solomko;Software Development;Ivan Reznik
+Andrii Pravorskyi;Software Development;Ivan Reznik
+Alexey Ivanov;Software Development;Ivan Reznik
+Katia Matviyenko;;
+Nikita Golubev;BPO Delivery;Ruslan Tsymbal
+Maryna Sytnykova;QA Department;Ivan Reznik
+Oleksii Vasylkivskyi;Software Development;Ivan Reznik
+Garry Spencer;;
+Oleg Moskalenko;;
+Kateryna Liman;Software Development;Ruben Gambarov
+Andrew Wells;;
+Olga Begun;QA Department;Dmitry Sherstobitov
+Olena Korneenkova;BPO Delivery;Anna Symonchuk
+Scott Pollov;;
+Viktoriia Peshekhonova;Development;Ruben Gambarov
+Dmitry Yeremenko;Software Development;Ruben Gambarov
+Nikita Kravchenko;Software Development;Ruben Gambarov
+Kateryna Semenyuk;QA Department;Ruben Gambarov
+Mike Wachner;;
+Andrew Demydenko;Software Development;Ivan Reznik
+Vlad Slavin;BPO Delivery;Ruslan Tsymbal
+IMEI 356459102260799;;
+Oleksii Ovsiannykov;GIS Department;Ruslan Tsymbal
+Account Unlocker;;
+Oleksii Posunko;;
+Viktoria Motina;Software Development;Ruben Gambarov
+Jim Marascio;;
+Gleb Skripnikov;Software Development;Aleksey Tyutyunnyk
+Andrey Proskurovskiy;BPO Delivery;Anna Symonchuk
+Inna Kylymchuk;Sales and Marketing;Archie Cle
+SN C02SJ0MLFVH6;;
+Roman Pugachov;Sales and Marketing;Imran Khairi
+Dmitry Palamarchuk;Software Development;Ruben Gambarov
+RNDManagement;;
+Ekateryna Kovalenko;BPO Delivery;Anna Symonchuk
+qac bot;;
+Nickolay Bogdanov;Software Development;Ivan Reznik
+Serhiy Zelenskyi;Software Development;Pavel Sosnovsky
+Viktoriia Shcherbakova;Talent Acquisition Team;Lidiya Kubrina
+Roman Navarych;Software Development;
+dan shapir;;
+hadar;;
+Chryl Chambers;;
+Mykyta Shkarubo;Software Development;Evgeny Kontsevoi
+SN C02CFJ43MD6M;;
+Ruslan Zhyhit;Software Development;Ivan Reznik
+Iryna Khalvashy;Administration;Svetlana V. Shuba
+PRN_HP_M130_NW;;
+Jennifer Liginski;;
+Evan Kostuchenko;BPO Delivery;Maksim Evsukov
+Nathan Amoruso;;
+SN DMPW82BNJF8J;;
+Eldar Khaitov;Software Development;Ivan Reznik
+Roman Olkhovskyi;BPO Delivery;Marina Balinskaya
+Tatyana Chebotareva;Software Development;Veronika Kirtsun
+Tymofii Serhiienko;Software Development;Aleksey Tyutyunnyk
+Alexander Illarionovich;Software Development;Anton Sheiko
+Dmytro Korchynskyi;Software Development;Anton Sheiko
+Sergey Chabanuck;Software Development;Anton Sheiko
+Michael Yudenkov;BPO Delivery;Ruslan Tsymbal
+Nikolay Krasikov;Software Development;Aleksey Tyutyunnyk
+Alexandr Seleznyov;Software Development;Anton Sheiko
+Carlos Barillas;;
+Jon Bundy;;
+Erika Martinez;;
+Yaroslav Stefaniuk;Software Development;Ruben Gambarov
+Stepan Trotsenko;Software Development;Vladimir Kisil
+Ekaterina Dorosheva;BPO Delivery;Marina Balinskaya
+Kharkiv SoftDev Meeting Room Green;;
+Vladyslav Gula;Software Development;Ivan Reznik
+Oleh Koltun;BPO Delivery;Ruslan Tsymbal
+Arina Moskalenko;Talent Acquisition Team;Viktoriia Shcherbakova
+Kharkiv SoftDev Meeting Room Yellow;;
+Darina Shandyba;BPO Delivery;Marina Balinskaya
+Andrey Chykanakov;QA Department;Ivan Reznik
+Kamalakar Inuganti;Software Development;Vladimir Kisil
+Vladica Vasiljevic;Software Development;Vladimir Kisil
+Jasmina Ahmatovic;Software Development;Vladimir Kisil
+Sergii Belodon;Software Development;Vladimir Kisil
+Natalie Noble;;
+Adam Fendelman;;
+Dariia Ponomarova;Talent Acquisition Team;Viktoriia Shcherbakova
+Sergii Gorlach;BPO Delivery;Dmytro Lomakin
+Danil Holik;BPO Delivery;Dmytro Lomakin
+Dmitry Mokhar;;
+Dmytro Prysiazhnyi;;
+Yuryi Liutvort;;
+Oleksandr Chornyi;;
+Nadya Yakymenko;;
+StayCool_LDAP;;
+Maksym Shulakov;BPO Delivery;Anna Stepanova
+Joshua White;;
+Zdenka Sturm;;
+gis-pl-user;;
+Bohdan Shulha;Software Development;Veronika Kirtsun
+Andrey Yakimenko;Software Development;Ivan Reznik
+Denys Seroshtan;Talent Acquisition Team;Viktoriia Shcherbakova
+SN PF0WNW54;;
+Eugeniy Prodchenko;BPO Delivery;Marina Balinskaya
+agrilab_gitlab;;
+Upender Sanga;Development;Vladimir Kisil
+Oleksii Maslyanuy;BPO Delivery;Dmytro Lomakin
+Yevhenii Barskyi;BPO Delivery;Dmytro Lomakin
+Anastasiia Miasnikova;BPO Delivery;Dmytro Lomakin
+Andrii Fetisov;BPO Delivery;Dmytro Lomakin
+Artem Kolchyn;BPO Delivery;Dmytro Lomakin
+Eugene Rud;QA Department;Aleksey Tyutyunnyk
+Andrii Vyshnevetskyi;Software Development;Ivan Reznik
+Tural Suleymani;Software Development;Aleksey Tyutyunnyk
+Mihail Serikov;BPO Delivery;Ruslan Tsymbal
+Uladzimir Khadasouski;BPO Delivery;Ruslan Tsymbal
+Erdem Balci;Software Development;Vladimir Kisil
+Daniel Taylor;Development;Aleksey Tyutyunnyk
+Vsevolod Petrychko;Software Development;
+Nikolay Podolyan;Software Development;
+Imran Khairi;Sales and Marketing;Sergey Kizyan
+Eugen Demchuk;Software Development;Ruben Gambarov
+Svetlana Levchenko;BPO Delivery;Anna Symonchuk
+Renat Ismahilov;QA Department;Ivan Reznik
+Andrii Fandeiev;Software Development;Aleksey Tyutyunnyk
+Odesa Meeting Room S (Small);;
+Odesa Meeting Room M (Medium);;
+Nika Zelenskaya;BPO Delivery;Dmytro Lomakin
+Nikolai Maslov;BPO Delivery;Dmytro Lomakin
+Kostiantyn Bahatskyi;BPO Delivery;Dmytro Lomakin
+Tetiana Piddubna;BPO Delivery;Dmytro Lomakin
+Danyil Dvorianov;Software Development;Ivan Reznik
+Bohdan Pylypenko;BPO Delivery;Dmytro Lomakin
+Vadym Romanenko;Software Development;Aleksey Tyutyunnyk
+Alona Kostenko;Software Development;Ruben Gambarov
+Oleksandr Pidorych;Software Development;Ivan Reznik
+Konstantin Stadnik;QA Department;Ruben Gambarov
+Dariia Kupina;BPO Delivery;Anna Symonchuk
+Oksana Borschc;BPO Delivery;Anna Symonchuk
+Vitaly Evodin;Software Development;Veronika Kirtsun
+Valeriia Melnychuk;Software Development;Ivan Reznik
+Rustam Inatov;Software Development;Ruben Gambarov
+Dmytro Matviichuk;Software Development;Ruben Gambarov
+Roman Kucherenko;Software Development;Ruben Gambarov
+Rolan Akhmedov;BPO Delivery;Anton Didenko
+Alexander Klaer;;
+Brianna Lopez;;
+Daniel Mano;;
+Jaya Mapleton;;
+Joseph Cortez;;
+Kevin Zhen;;
+Michael Shi;;
+Raffi Sahakian;;
+Noah Tabor;;
+Edgar Hernandez;;
+Marina Tolkacheva;BPO Delivery;Anna Symonchuk
+Yana Kalinichenko;QA Department;Ruben Gambarov
+Oleksii Altabay;BPO Delivery;Anton Didenko
+Oleksandr Ulashyn;BPO Delivery;Sophia Slupskaya
+Cory Olenick;;Ivan Reznik
+Arie Kapulkin;;
+Gennady Oleynik;Software Development;Andrey Svistun
+Artsiom Sherashau;Development;Vladimir Kisil
+Denys Makarenko;Software Development;Vladimir Kisil
+Ivan Hredil;Software Development;Aleksey Tyutyunnyk
+Elena Vitolberg;BPO Delivery;Marina Balinskaya
+Oleksiy Alyoshko;Software Development;Ivan Reznik
+Ihor Khyzhniak;;Irina Dubovik
+Gopal Erinjippurath;GIS;Anton Didenko
+Eugene Sukhorukov;Sales and Marketing;Irina Dubovik
+Dmytro Didusenko;Software Development;Ruben Gambarov
+Mykola Podolyan;Software Development;
+Ann Kasyanenko;Talent Management Team;Svetlana Svetlichnaya
+Maksim Haichuk;BPO Delivery;Anna Symonchuk
+Egor Shenkarenko;Software Development;Ruben Gambarov
+Tetiana Viniukova;BPO Delivery;Marina Balinskaya
+Irina Sumchenko;BPO Delivery;Marina Balinskaya
+Vitalii Kostenko;BPO Delivery;Anton Didenko
+Kateryna Tereshchenko;HR Department;Lidiya Kubrina
+Oleg Osetinskiy;BPO Delivery;Anna Stepanova
+Stanislav Khmelyk;BPO Delivery;Aleksey Borodulin
+Olha Demchenko;Software Development;Ivan Reznik
+Olha Tryhub;BPO Delivery;Anna Stepanova
+Dmitriy Bondar;Software Development;Anton Sheiko
+Hisham Lamei;;
+Olivier Rouit;;
+Yuri Gura;BPO Delivery;Serhii Narozhnyi
+Petro Fedchenko;;
+Tatiana Kozlova;BPO Delivery;Aleksey Borodulin
+Aelita Totskaya;BPO Delivery;Anna Stepanova
+Ethan Wang;;
+Lan Wang;;
+Anna Hudozhnikova;Talent Acquisition Team;Dariia Ponomarova
+Anton Sanzhura;Talent Acquisition Team;Dariia Ponomarova
+Artem Trubin;Software Development;Ivan Reznik
+Ievgen Sobko;QA Department;Ivan Reznik
+A. Isaev;;
+Angelika Kozulina;Sales and Marketing;Alexander Tretyakov
+Anna Krapyva;BPO Delivery;Marina Balinskaya
+Dasari Uma Mahesh;;
+Achim Moehrlein;Development;
+Irina Sokhonevich;BPO Delivery;Marina Balinskaya
+Ivan Petrov;;
+Karim Bahloul;Sales and Marketing;Vadym Toma
+Sergey Stepanov;Administration;Olga Stepanova
+Vyacheslav Diedov;Development;Vladimir Kisil
+Honcharova Daria;;
+Kurgan Daria;;
+Stas Diana;;
+Pryimachenko Dmitrii;;
+Nehotko Elena;;
+Yuras Evgenia;;
+Breslavska Iryna;;
+Nalezhytyy Maksym;;
+Garpiniuk Mikhail;;
+Masiuk Oleg;;
+Tsarik Sergey;;
+Lavrenova Sofia;;
+Igumnova Valentina;;
+Adelina Titeyeva;BPO Delivery;Dmytro Lomakin
+Dmitrii Pryimachenko;BPO Delivery;Dmytro Lomakin
+Elena Nehotko;BPO Delivery;Dmytro Lomakin
+Evgenia Yuras;BPO Delivery;Dmytro Lomakin
+Iryna Breslavska;BPO Delivery;Dmytro Lomakin
+Maksym Nalezhytyy;BPO Delivery;Dmytro Lomakin
+Sergey Tsarik;BPO Delivery;Dmytro Lomakin
+Yaroslav Zaitsev;BPO Delivery;Dmytro Lomakin
+Yaroslava Chubyk;BPO Delivery;Dmytro Lomakin
+Yulia Romaniv;;
+Yurii Ushakov;BPO Delivery;Dmytro Lomakin
+Illia Sazonov;BPO Delivery;Dmytro Lomakin
+Snezhana Dydnik;BPO Delivery;Dmytro Lomakin
+Vasil Bilak;BPO Delivery;Dmytro Lomakin
+Anastasia Gavrilyk;BPO Delivery;Dmytro Lomakin
+Mykyta Synytsia;BPO Delivery;Dmytro Lomakin
+Taras Sidak;BPO Delivery;Dmytro Lomakin
+Yurii Nagai;BPO Delivery;Anna Stepanova
+Alex Mendez;;
+Filip Koscuk;Sales and Marketing;Sergey Kizyan
+Mariana Pidtcerkovna;BPO Delivery;Dmytro Lomakin
+Denis Basanets;BPO Delivery;Dmytro Lomakin
+Dmytro Sokolov;BPO Delivery;Dmytro Lomakin
+Anton Yavorskii;BPO Delivery;Dmytro Lomakin
+Yana Sherbak;BPO Delivery;Dmytro Lomakin
+Michael Dean;;
+Oleksandr Zhezdrov;BPO Delivery;Dmytro Lomakin
+Yaroslav Patrakeiev;BPO Delivery;Dmytro Lomakin
+Heorhii Pashchenko;BPO Delivery;Dmytro Lomakin
+Olha Hryshchenko;BPO Delivery;Dmytro Lomakin
+Illia Khoroshko;BPO Delivery;Dmytro Lomakin
+Olena Tokar;BPO Delivery;Dmytro Lomakin
+Maksym Hubin;BPO Delivery;Dmytro Lomakin
+Ihor Hryshyn;BPO Delivery;Dmytro Lomakin
+Vyacheslav Moskal;BPO Delivery;Dmytro Lomakin
+Viktor Nikitenko;BPO Delivery;Dmytro Lomakin
+Natalia Prymak;BPO Delivery;Dmytro Lomakin
+Inna Zahreba;BPO Delivery;Dmytro Lomakin
+Irina Novoselova;BPO Delivery;Dmytro Lomakin
+Anna Udachina;BPO Delivery;Dmytro Lomakin
+Anastasia Levchenko;BPO Delivery;Dmytro Lomakin
+Maksym Cherednikov;BPO Delivery;Dmytro Lomakin
+Valeriya Godlevskaya;BPO Delivery;Sophia Slupskaya
+Viktor Kozak;;Vladimir Kisil
+Viacheslav Savratskyi;;Vladimir Kisil
+Dmitriy Karpovich;;Anton Sheiko
+Pavel Petrov;;Anton Sheiko
+Alexander Lemeshev;;Anton Sheiko
+Ihor Sierov;Software Development;Ivan Reznik
+Ivan Plaksin;Software Development;Ruben Gambarov
+Iurii Kyrylenko;Software Development;Veronika Kirtsun
+Yuliia Harbuz;BPO Delivery;Anna Symonchuk
+Olesia Halas;BPO Delivery;Anna Symonchuk
+Artem Popov;BPO Delivery;Anna Symonchuk
+Scott Roth;;
+Thomas Williams;;
+Daria Semenova;BPO Delivery;Anna Stepanova
+Sergey Migel;Software Development;Pavel Sosnovsky
+Artem Ahapkin;BPO Delivery;Sergei Tchernyshenko
+Artem Ahapkin Admin;;Sergei Tchernyshenko
+Oleksii Bilenko;BPO Delivery;Anton Didenko
+Bahruz Aydinli;Software Development;Ivan Reznik
+Alexey Finogenov;Software Development;Ivan Reznik
+Oleh Haidus;BPO Delivery;Marina Balinskaya
+Alexey Hutsevich;Software Development;Ruben Gambarov
+Nadia Panasiuk;BPO Delivery;Anton Didenko
+Oleksandr Sydorenko;Software Development;Veronika Kirtsun
+Eduard Dagaev;Software Development;Ruben Gambarov
+Yurii Nikiforuk;Software Development;Ruben Gambarov
+Alena Naboka;BPO Delivery;Anna Symonchuk
+Roksolana Oleksiv;BPO Delivery;Anna Symonchuk
+Vadym Milichev;Software Development;Veronika Kirtsun
+wds_user;;
+Eugene Salmin;Software Development;Ivan Reznik
+Inga Shkred;;Dariia Ponomarova
+Iryna Semeniuk;QA Department;Dmitry Tyupa
+Illia Timoshenko;BPO Delivery;Marina Balinskaya
+Daria Shabelnikova;BPO Delivery;Marina Balinskaya
+Mike Agutter;;
+Andy Show;;
+Gareth Shelbourne;;
+Martyn Lesbirel;;
+Vladyslava Nezhnova;Talent Acquisition Team;Viktoriia Shcherbakova
+Alexander Danilenko;Software Development;Veronika Kirtsun
+Anastasiia Ziniak;BPO Delivery;Anna Stepanova
+Yuri Vvedenskyi;Software Development;Pavel Pronko
+Anna Puhachova;BPO Delivery;Anna Symonchuk
+Borys Matsenko;BPO Delivery;Anna Symonchuk
+Elena Blinova;;Svetlana V. Shuba
+Anastasiia Dolhopol;Sales and Marketing;Alexander Tretyakov
+Irina Ryndziuk;;Anton Sheiko
+GitLab Dynamiti;;Vladimir Kisil
+Vladyslav Servetnik;Software Development;Sergey Kizyan
+Roman Chumak;Software Development;Sergey Kizyan
+Yevhen Mahdii;Software Development;Sergey Kizyan
+Dmytro Shchepinskyi;Software Development;Ivan Reznik
+Roman Zakharov;BPO Delivery;Aleksey Borodulin
+Oleksandr Huskov;BPO Delivery;Sophia Slupskaya
+Evgeny Chuchumakov;Software Development;Pavel Sosnovsky
+Anastasia Usatiuk;BPO Delivery;Anna Symonchuk
+Iryna Honcharova;BPO Delivery;Anna Symonchuk
+Ahielos Lyba;BPO Delivery;Marina Balinskaya
+Ainyr Miftahov;BPO Delivery;Marina Balinskaya
+Aleksey Goroshkov;BPO Delivery;Marina Balinskaya
+Alexey Glotov;BPO Delivery;Marina Balinskaya
+Anastasiia Bilyzna;BPO Delivery;Marina Balinskaya
+Anastasiia Mytiuk;BPO Delivery;Marina Balinskaya
+Andrei Ksenofontov;BPO Delivery;Marina Balinskaya
+Andrey Bezbabnov;BPO Delivery;Marina Balinskaya
+Andrii Gylevskiy;BPO Delivery;Marina Balinskaya
+Bohdan Blindaruk;BPO Delivery;Marina Balinskaya
+Illia Hodyna;BPO Delivery;Marina Balinskaya
+Illia Obukhovskyi;BPO Delivery;Marina Balinskaya
+Iryna Dagli;BPO Delivery;Marina Balinskaya
+Iryna Menshykova;BPO Delivery;Marina Balinskaya
+Kateryna Epishina;BPO Delivery;Marina Balinskaya
+Konstantin Kurman;BPO Delivery;Marina Balinskaya
+Liliya Vinnik;BPO Delivery;Marina Balinskaya
+Maryna Zhukovska;BPO Delivery;Marina Balinskaya
+Miroslav Matiushenko;BPO Delivery;Marina Balinskaya
+Nin? Zhuravel;BPO Delivery;Marina Balinskaya
+Oleksandr Kovalenko;BPO Delivery;Marina Balinskaya
+Olena Osokina;BPO Delivery;Marina Balinskaya
+Sergey Rezunenko;BPO Delivery;Marina Balinskaya
+Tatiana Kim;BPO Delivery;Marina Balinskaya
+Tatiana Shevchenko;BPO Delivery;Marina Balinskaya
+Veronika Brychnik;BPO Delivery;Marina Balinskaya
+Viktor Parkhomenko;BPO Delivery;Marina Balinskaya
+Viktoriia Bondar;BPO Delivery;Marina Balinskaya
+Vladislav Kondratenko;BPO Delivery;Marina Balinskaya
+Volodymyr Tretiak;BPO Delivery;Marina Balinskaya
+Yaroslav Nazarenko;BPO Delivery;Marina Balinskaya
+Lizaveta Yasiunas;BPO Delivery;Marina Balinskaya
+Yuliia Sokol;BPO Delivery;Marina Balinskaya
+Yelyzaveta Borovok;BPO Delivery;Marina Balinskaya
+Yulia Soloviova;BPO Delivery;Marina Balinskaya
+Dmitriy Kushnikov;Software Development;Ivan Reznik
+Serhii Lemishko;Software Development;Ivan Reznik
+Ihor Polotebnov;BPO Delivery;Marina Balinskaya
+Oleksandra Palii;BPO Delivery;Marina Balinskaya
+Ieuhen Molodan;BPO Delivery;Marina Balinskaya
+Vlada Zhyliaieva;BPO Delivery;Marina Balinskaya
+Gulsina Zakirova;BPO Delivery;Marina Balinskaya
+Oleksandr Derevianko;BPO Delivery;Marina Balinskaya
+Mahomed Isakov;BPO Delivery;Marina Balinskaya
+Artem Pil;BPO Delivery;Marina Balinskaya
+Oleksandr Hvalko;BPO Delivery;Marina Balinskaya
+Olha Pushkarova;BPO Delivery;Marina Balinskaya
+Olena Kudrinova;BPO Delivery;Marina Balinskaya
+Oleksandr Nabilskiy;BPO Delivery;Marina Balinskaya
+Olena Pankiv;BPO Delivery;Marina Balinskaya
+Oleksandr Bilyk;BPO Delivery;Marina Balinskaya
+Egor Katsalap;BPO Delivery;Marina Balinskaya
+Sergey Vasilkov;Software Development;Sergey Kizyan
+Hryhorii Zhulai;BPO Delivery;Marina Balinskaya
+Marina Kaminska;BPO Delivery;Marina Balinskaya
+Iurii Sirosh;BPO Delivery;Marina Balinskaya
+Anastasiia Domracheva;BPO Delivery;Marina Balinskaya
+Anna Amelina;BPO Delivery;Marina Balinskaya
+Oleksandr Diachuk;BPO Delivery;Marina Balinskaya
+Oksana Shvets;BPO Delivery;Marina Balinskaya
+Yuliia Pustovalova;BPO Delivery;Marina Balinskaya
+Roman Dubogray;BPO Delivery;Marina Balinskaya
+Artsem Z;;
+Reece Kiyuna;;
+Antonia Issaevitch;;
+Vladislav Piontyk;Software Development;Anton Sheiko
+Maria Z;;Anton Sheiko
+Artem Kvashnin;QA Department;Aleksey Tyutyunnyk
+Olha Pershyna;BPO Delivery;Maksim Evsukov
+Alex Artuhov;Software Development;Sergey Kizyan
+Mirnamiq A;;Anton Sheiko
+Dmitry Novitsky;Software Development;Vladimir Kisil
+Illia Zemlianytskyi;Software Development;Ivan Reznik
+Volodymyr Kozhevnikov;Software Development;Sergey Kizyan
+Valeriia Skliarenko;QA Department;Maksim Evsukov
+Oleksandr Zherebtsov;;Sergey Kizyan
+Mikhail Vdovareize;BPO Delivery;Dmytro Lomakin
+Kseniya Martynuk;BPO Delivery;Dmytro Lomakin
+Aliona Khurdei;;Dmytro Lomakin
+Victoria Kuznetsova;;Dmytro Lomakin
+Anna Topchiy;;Dmytro Lomakin
+Andrew S;;Anton Sheiko
+Anastasiya Konotovskaya;BPO Delivery;Serhii Narozhnyi
+Anna Sokolova;BPO Delivery;Anna Symonchuk
+Evgeniy Kolodko;BPO Delivery;Serhii Narozhnyi
+Svetlana Podlesnaya;;
+Boris P;;Anton Sheiko
+Anton O;;Anton Sheiko
+Aykhan H;;
+Chris Greene;;Nataliia Kasianova
+Melissa Torres-Campa;;
+Maksim Zui;Software Development;Ruben Gambarov
+Andrey Sorockin;;Ruben Gambarov
+Ekaterina Andrushchenko;;Dmytro Lomakin
+Andrey K;;

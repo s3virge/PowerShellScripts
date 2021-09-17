@@ -1,0 +1,1 @@
+$Server = get-content D:\list.txt$Server=$Cred = Get-CredentialInvoke-Command -ComputerName $Server -credential $Cred -ScriptBlock {Start-Process "\\Server\Share\app.msi)" -ArgumentList "/qn" -Wait}

@@ -1,0 +1,1 @@
+Usage Get-Content CComputers.txt  Set-LocalAdminGroupMembership -Account 'YourAccount'

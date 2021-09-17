@@ -1,0 +1,1 @@
+Invoke-Command -ComputerName AVERKHOV -ScriptBlock { gpupdate /force } -credential v.kobzar

@@ -1,0 +1,186 @@
+@echo off
+
+::wuauclt /detectnow /updatenow
+
+::show windows update window
+::explorer ms-settings:windowsupdate 
+
+::check for updates immediately and open Windows update window
+explorer ms-settings:windowsupdate-action
+
+::в логах можно увидеть с какого сервера обновлялась ос
+Get-WindowsUpdateLog -LogPath D:\windowsupdate.log
+::Get-WindowsUpdateLog -ETLPath \\reshetilo2\C$\windows\Logs\WindowsUpdate -LogPath C:\LOGS\windowsupdate_reshetilo2.log
+
+::systeminfo | find ": KB"
+
+::Powershell.exe -ExecutionPolicy Unrestricted -command "Install-Module PSWindowsUpdate -force"
+::Powershell.exe -ExecutionPolicy Unrestricted -command "Import-Module PSWindowsUpdate; Get-WindowsUpdate; Install-WindowsUpdate"
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::Specify Intranet Microsoft update service location
+::
+::Specifies an intranet server to host updates from Microsoft Update. You can then use this update service to automatically update computers on your network.
+::This setting lets you specify a server on your network to function as an internal update service. The Automatic Updates client will search this service for updates that apply to the computers on your network.
+::To use this setting, you must set two server name values: the server from which the Automatic Updates client detects and downloads updates, and the server to which updated workstations upload statistics. You can set both values to be the same server. An optional server name value can be specified to configure Windows Update Agent to download updates from an alternate download server instead of the intranet update service.
+::If the status is set to Enabled, the Automatic Updates client connects to the specified intranet Microsoft update service (or alternate download server), instead of Windows Update, to search for and download updates. Enabling this setting means that end users in your organization don't have to go through a firewall to get updates, and it gives you the opportunity to test updates before deploying them.
+::If the status is set to Disabled or Not Configured, and if Automatic Updates is not disabled by policy or user preference, the Automatic Updates client connects directly to the Windows Update site on the Internet.
+::The alternate download server configures the Windows Update Agent to download files from an alternative download server instead of the intranet update service.
+::The option to download files with missing Urls allows content to be downloaded from the Alternate Download Server when there are no download Urls for files in the update metadata. This option should only be used when the intranet update service does not provide download Urls in the update metadata for files which are present on the alternate download server.
+::Note: If the "Configure Automatic Updates" policy is disabled, then this policy has no effect.
+::Note: If the "Alternate Download Server" is not set, it will use the intranet update service by default to download updates.
+::Note: The option to "Download files with no Url..." is only used if the "Alternate Download Server" is set.
+::Note: This policy is not supported on Windows RT. Setting this policy will not have any effect on Windows RT PCs.
+http://KGUARD.intetics.com.ua:8530
+
+<br />
+На этом форуме задают нужный мне вопрос <a style="color: blue;" href="https://social.technet.microsoft.com/Forums/en-US/5a6a40ed-6663-4ad2-9807-803ccc3f91de/windows-update-when-wsus-is-unavailable?forum=winserverwsus">Windows update when WSUS is unavailable</a> и дают ответ что If a computer configured as a client of a WSUS server is disconnected from the corporate network and has no access to the WSUS server, no updates will be installed at all. <br>
+На рабочем компе посмотрел в локальные групповые политики <br>
+Computer Configuration\Administrative Templates\Windows Components\Windows Update\Specify Intranet Microsoft update service location.<br>
+Тут указан адрес http://KGUARD.intetics.com.ua:8530 <br>
+If NOT setting an intranet location, the computers will automatically default to check Microsoft for the updates, not WSUS.<br>
+После выоплнения этой команды Get-WindowsUpdateLog -LogPath D:\windowsupdate.log<br>
+в лог файле видно откуда скачиваются обновления - WSUS server: http://wsus.intetics.com.ua:8530<br><br>
+В локальных груповых политиках рабочего компа в Specify Intranet Microsoft update service location установил Not Configured.<br>
+Запустил проверку обновлений. Все равно проверяет обновления на Wsus.
+
+В реестре в этой ветке HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate<br>
+есть параметр WUServer со значением http://wsus.intetics.com.ua:8530 и WUStatusServer http://wsus.intetics.com.ua:8530
+а в этой ветке HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU<br>
+есть параметр UseWUServer со значением 1. Если установить значение в 0 то ос обновляется с серверов микрософт.
+
+https://github.com/vFense/vFenseAgent-win/wiki/Registry-keys-for-configuring-Automatic-Updates-&-WSUS
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+
+Entry name	Data type	Values
+AUOptions	Reg_DWORD	2 = Notify before download.
+3 = Automatically download and notify of installation.
+4 = Automatically download and schedule installation. Only valid if values exist for ScheduledInstallDay and ScheduledInstallTime.
+5 = Automatic Updates is required and users can configure it.
+NoAutoUpdate	Reg_DWORD	0 = Enable Automatic Updates.
+1 = Disable Automatic Updates.
+UseWUServer	Reg_DWORD	1 = The computer gets its updates from a WSUS server.
+0 = The computer gets its updates from Microsoft Update.
+The WUServer value is not respected unless this key is set.
+
+Для экспериментов пользовался этими командами<br>
+::wuauclt /detectnow /updatenow<br>
+::show windows update window<br>
+::explorer ms-settings:windowsupdate<br>
+::check for updates immediately and open Windows update window<br>
+explorer ms-settings:windowsupdate-action<br>
+<br>
+::Использование usoclient.exe в командной строке<br>
+::При желании вы можете использовать usoclient.exe вручную в командной строке со следующими параметрами для работы с обновлениями:<br>
+<br>
+::usoclient.exe RestartDevice — для перезагрузки и завершения установки обновлений. Может не работать в некоторых версиях Windows 10.<br>
+::usoclient.exe ResumeUpdate — продолжить процесс обновления при загрузке.<br>
+::usoclient.exe ScanInstallWait — скачивает, но не устанавливает обновления. До выполнения команды следующие команды exe использовать нельзя.<br>
+::usoclient.exe StartDownload — запустить скачивание обновлений.<br>
+::usoclient.exe StartInstall — запустить установку обновлений, работает после ScanInstallWait.<br>
+::usoclient.exe StartInteractiveScan — интерактивный поиск обновлений (может показать диалоговые окна с информацией и <br>запросами).<br>
+::usoclient.exe StartScan — запустить поиск обновлений.<br>
+<br>
+::control.exe /name Microsoft.WindowsUpdate<br>
+::timeout 3<br>
+::usoclient.exe StartInteractiveScan<br>
+<br>
+::в логах можно увидеть с какого сервера обновлялась ос<br>
+Get-WindowsUpdateLog -LogPath D:\windowsupdate.log<br>
+::Get-WindowsUpdateLog -ETLPath \\reshetilo2\C$\windows\Logs\WindowsUpdate -LogPath C:\LOGS\windowsupdate_reshetilo2.log<br>
+<br>
+::Powershell.exe -ExecutionPolicy Unrestricted -command "Install-Module PSWindowsUpdate -force"<br>
+::Powershell.exe -ExecutionPolicy Unrestricted -command "Import-Module PSWindowsUpdate; Get-WindowsUpdate; Install-WindowsUpdate"<br>
+gpupdate /target:computer<br>
+
+<a style="color: blue;" href="https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/managing-updates-with-pswindowsupdate">Managing Updates with PSWindowsUpdate</a>
+
+Type the following command to view the update history and press Enter:
+работает через psxec
+wmic qfe list
+wmic qfe list full
+wmic qfe list > UpdateList.txt
+wmic qfe get HotfixID,ServicePackInEffect,InstallDate,InstalledBy,InstalledOn
+wmic qfe where "HotfixID = 'KB973687'"
+wmic qfe where "HotfixID = 'KB973687'" get HotfixID, InstallDate, InstalledBy, InstalledOn
+wmic qfe where "HotfixID = 'KB973687'"  list full
+wmic /node:myserver qfe list full
+
+PowerShell Remote: get-wmiobject -class win32_quickfixengineering -computername mysever
+
+You could use the Setup Event log. Something like this?
+Get-WinEvent -LogName Setup | where{$_.message -match "success"} | select -First 1
+I normally check recently installed events like this:
+Get-WinEvent -LogName Setup -MaxEvents 5 | Format-Table Machinename,Timecreated,Message -A
+
+Invoke-Command -ComputerName VSTRELNIKOVA2 -ScriptBlock { (New-Object -com "Microsoft.Update.AutoUpdate").Results.LastInstallationSuccessDate} -ErrorAction SilentlyContinue
+Invoke-Command -ComputerName VSTRELNIKOVA2 -ScriptBlock {wmic qfe list} -ErrorAction SilentlyContinue
+
+https://devblogs.microsoft.com/scripting/use-powershell-to-easily-find-information-about-hotfixes/
+
+Invoke-Command -ComputerName VSTRELNIKOVA2 -ScriptBlock {
+Get-WmiObject -cl win32_reliabilityRecords -filter "sourcename = 'Microsoft-Windows-WindowsUpdateClient'" |
+Select-Object @{LABEL = "date";EXPRESSION = {$_.ConvertToDateTime($_.timegenerated)}},user, productname
+} -ErrorAction SilentlyContinue
+
+$ComputerName = "AGANYSH"
+Invoke-Command -ComputerName $ComputerName -ScriptBlock { (New-Object -com "Microsoft.Update.AutoUpdate").Results.LastInstallationSuccessDate} -ErrorAction SilentlyContinue
+pause
+
+Invoke-Command -ComputerName $ComputerName -ScriptBlock {
+Get-WmiObject -cl win32_reliabilityRecords -filter "sourcename = 'Microsoft-Windows-WindowsUpdateClient'" |
+Select-Object @{LABEL = "date";EXPRESSION = {$_.ConvertToDateTime($_.timegenerated)}},user, productname
+} -ErrorAction SilentlyContinue
+pause
+
+::Работает удалённо
+Invoke-Command -ComputerName $ComputerName -ScriptBlock {
+usoclient.exe ScanInstallWait
+} -ErrorAction SilentlyContinue
+pause
+
+Invoke-Command -ComputerName $ComputerName -ScriptBlock {
+usoclient.exe StartInstall
+} -ErrorAction SilentlyContinue
+pause
+
+psexec @serverlist.txt cmd /c "wuauclt /detectnow"
+
+::----------------------------------------------------------
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"UseWUServer"=dword:00000000
+
+На домашнем ноуте настроил виртуальную машину, на ней настроил vpn, ввёл в домен, добавил в группу. После применения групповых политик
+виртуалка стала забирать обновления с wsus автоматически. Если не запускать vpn соединение, то машина не обновляется совсем, 
+проверка обновлений на серверах MS не выполняется. Что бы забирать обновления с ms серверов в реестре нужно отключить использование wsus.
+WSUS можно выставить наружу или всем юзать впн.
+Если vpn подключен то виртуалка обновления забирает с wsus. Если vpn отключен, то вываливается ошибка - We couldn't connect to the update
+service. We'll try again later, or you can check now. If it still doesn't work, make sure you're connected to the Internet.
+
+::-----------------------------------------------------------
+<br>Настроил виртуалку с Windows 10 x64. Через vpn ввёл её в домен atwss.com (Дима Бойко создал учетку). 
+Групповые политики применились. Виртуалка стала забирать обновления с wsus.atwss.com при подключении по vpn.
+Если vpn не подключен, то появляется ошибка - We couldn't connect to the update service. 
+We'll try again later, or you can check now. If it still doesn't work, make sure you're connected to the Internet.
+И эта ошибка не пропадает после перезагрузки. Нужно подключить vpn и нажать кнопку Retry. Тогда ошибка пропадает.
+Если vpn не подключен, то можно запустить установку обновлений с сайта Microsoft нажав на ссылку Check online for updates from MS.
+Автоматически проверка обновлений не выполняется.<br>
+<br>
+Если установить значение [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]<br>
+NoAutoUpdate	Reg_DWORD	
+<p style="margin-left: 1em; margin-top: 0; margin-bottom: 0">0 = Enable Automatic Updates.<br>
+1 = Disable Automatic Updates.</p>
+UseWUServer	Reg_DWORD	
+<p style="margin-left: 1em; margin-top: 0; margin-bottom: 0">1 = The computer gets its updates from a WSUS server.<br>
+0 = The computer gets its updates from Microsoft Update.</p>
+
+::--------------------------------------------------------
+<br>На тестовой виртаулке изменение значений в реестре заработали только после  
+<a style="color: blue;" href="https://docs.microsoft.com/ru-ru/windows/deployment/update/windows-update-resources">
+Сброс компонентов Центра обновления Windows вручную</a> 
+<br>
+До сброса настроек вываливалась ошибка о недоступности сервера обновлений.<br>
+<br>
+<a style="color: blue;" href="https://gallery.technet.microsoft.com/scriptcenter/Reset-WindowsUpdateps1-e0c5eb78">This script will completely reset the Windows Update client settings. It has been tested on Windows 7, 8, 10, and Server 2012 R2. It will configure the services and registry keys related to Windows Update for default settings.</a>
