@@ -42,22 +42,22 @@ foreach( $comp in $computers){
     {
         ###########################################################
 		# получить название установленной операционной системы
-		$os = Get-CimInstance -ClassName Win32_OperatingSystem -ComputerName $remoteCompName | Select-Object Caption
+		$os = Get-CimInstance -ClassName Win32_OperatingSystem -ComputerName $comp | Select-Object Caption
 
 		# получить название материнской платы
-		$mainBaord = Get-CimInstance -ClassName Win32_BaseBoard -ComputerName $remoteCompName | Select-Object Manufacturer, Product 
+		$mainBaord = Get-CimInstance -ClassName Win32_BaseBoard -ComputerName $comp | Select-Object Manufacturer, Product 
 
 		# получить название процессора
-		$processor = Get-CimInstance -ClassName Win32_Processor -ComputerName $remoteCompName | Select-Object Name, Caption
+		$processor = Get-CimInstance -ClassName Win32_Processor -ComputerName $comp | Select-Object Name, Caption
 
 		# получить объём озу
-		$memory = Get-CimInstance -ClassName Win32_PhysicalMemory -ComputerName $remoteCompName | Select-Object Capacity
+		$memory = Get-CimInstance -ClassName Win32_PhysicalMemory -ComputerName $comp | Select-Object Capacity
 
 		# получить названия винчестеров
-		$drives = Get-CimInstance -ClassName Win32_DiskDrive -ComputerName $remoteCompName | Select-Object Caption 
+		$drives = Get-CimInstance -ClassName Win32_DiskDrive -ComputerName $comp | Select-Object Caption 
 
 		# Получить назнавие видеокарты
-		$vga = Get-CimInstance -ClassName Win32_VideoController -ComputerName $remoteCompName | Select-Object Caption 
+		$vga = Get-CimInstance -ClassName Win32_VideoController -ComputerName $comp | Select-Object Caption 
 
 		Write-Host "--- HostName $comp ---" -ForegroundColor Green
 		"OS 		- {0}" -f $os.Caption
